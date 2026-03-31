@@ -29,11 +29,11 @@ const Footer = () => {
               <a href="mailto:hello@safarisoul.com" className="flex items-center gap-2 text-sm opacity-70 hover:opacity-100 transition-opacity">
                 <Mail size={14} /> hello@safarisoul.com
               </a>
-              <a href="tel:+254700000000" className="flex items-center gap-2 text-sm opacity-70 hover:opacity-100 transition-opacity">
-                <Phone size={14} /> +254 700 000 000
+              <a href="tel:+2348137110581" className="flex items-center gap-2 text-sm opacity-70 hover:opacity-100 transition-opacity">
+                <Phone size={14} /> +234 813 711 0581
               </a>
               <a
-                href="https://wa.me/254700000000"
+                href="https://wa.me/2348137110581"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm opacity-70 hover:opacity-100 transition-opacity"
