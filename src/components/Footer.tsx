@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div className="md:col-span-1">
             <h3 className="font-display text-2xl font-bold mb-3">
-              Safari<span className="text-primary">Soul</span>
+              The<span className="text-primary">Roam Circle</span>
             </h3>
             <p className="text-sm opacity-70 leading-relaxed">
               Curated African vacations for explorers, dreamers, and adventurers. Discover the continent like never before.
@@ -26,8 +26,8 @@ const Footer = () => {
           <div>
             <h4 className="font-body font-semibold text-sm uppercase tracking-wider mb-4 text-primary">Contact Us</h4>
             <div className="space-y-3">
-              <a href="mailto:hello@safarisoul.com" className="flex items-center gap-2 text-sm opacity-70 hover:opacity-100 transition-opacity">
-                <Mail size={14} /> hello@safarisoul.com
+              <a href="mailto:hello@roamcircle.com" className="flex items-center gap-2 text-sm opacity-70 hover:opacity-100 transition-opacity">
+                <Mail size={14} /> hello@roamcircle.com
               </a>
               <a href="tel:+2348137110581" className="flex items-center gap-2 text-sm opacity-70 hover:opacity-100 transition-opacity">
                 <Phone size={14} /> +234 813 711 0581
