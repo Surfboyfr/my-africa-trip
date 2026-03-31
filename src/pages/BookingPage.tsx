@@ -74,7 +74,7 @@ const BookingPage = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-3 justify-center">
               <Link to="/destinations"><Button variant="outline">Explore More</Button></Link>
-              <a href="https://wa.me/254700000000" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/2348137110581" target="_blank" rel="noopener noreferrer">
                 <Button>Chat on WhatsApp</Button>
               </a>
             </div>
