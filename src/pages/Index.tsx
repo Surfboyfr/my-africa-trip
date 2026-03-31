@@ -6,12 +6,20 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
+import Mission from "@/components/Mission";
+import WhoWeAre from "@/components/WhoWeAre";
+import OurPhilosophy from "@/components/OurPhilosophy";
+import WhatMakesUsDifferent from "@/components/WhatMakesUsDifferent";
 
 const Index = () => {
   return (
     <Layout>
       <HeroSection />
       <FeaturedDestinations />
+      <Mission />
+      <WhoWeAre />
+      <OurPhilosophy />
+      <WhatMakesUsDifferent />
       <HowItWorksSection />
       <TestimonialsSection />
 

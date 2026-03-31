@@ -8,6 +8,7 @@ import Destinations from "./pages/Destinations";
 import DestinationDetail from "./pages/DestinationDetail";
 import BookingPage from "./pages/BookingPage";
 import HowItWorks from "./pages/HowItWorks";
+import WhatMakesUsDifferentPage from "./pages/WhatMakesUsDifferentPage";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -24,6 +25,7 @@ const App = () => (
           <Route path="/destinations/:id" element={<DestinationDetail />} />
           <Route path="/book/:packageId" element={<BookingPage />} />
           <Route path="/how-it-works" element={<HowItWorks />} />
+          <Route path="/what-makes-us-different" element={<WhatMakesUsDifferentPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

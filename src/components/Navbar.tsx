@@ -11,13 +11,15 @@ const Navbar = () => {
     { to: "/", label: "Home" },
     { to: "/destinations", label: "Destinations" },
     { to: "/how-it-works", label: "How It Works" },
+    { to: "/how-it-works", label: "How It Works" },
+
   ];
 
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
       <div className="container mx-auto px-4 flex items-center justify-between h-16 md:h-20">
         <Link to="/" className="font-display text-2xl font-bold text-primary tracking-tight">
-          Safari<span className="text-foreground">Soul</span>
+          The<span className="text-foreground"> Roam Circle</span>
         </Link>
 
         {/* Desktop */}
