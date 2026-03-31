@@ -54,7 +54,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-background/10 mt-12 pt-6 text-center text-xs opacity-50">
-          © {new Date().getFullYear()} SafariSoul. All rights reserved.
+          © {new Date().getFullYear()} The Roam Circle. All rights reserved.
         </div>
       </div>
     </footer>
